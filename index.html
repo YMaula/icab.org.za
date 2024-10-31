@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic and Cultural Association of Bedfordview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dff5e4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            border: 5px solid white;
+            margin: 20px;
+            width: 90%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            background-color: #004d00;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            padding: 1em 0;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header img {
+            margin-left: 20px;
+        }
+        header h1 {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #006600;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #dff5e4;
+        }
+        main {
+            padding: 2em;
+            width: 100%;
+            text-align: center;
+        }
+        .main-image img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .event {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .about-us {
+            background-color: #e6ffe6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .services {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contact-form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #004d00;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+        }
+        /* Animations */
+        [data-aos] {
+            opacity: 0;
+            transition-property: opacity, transform;
+        }
+        [data-aos].aos-animate {
+            opacity: 1;
+        }
+        [data-aos="fade-up"] {
+            transform: translateY(20px);
+        }
+        [data-aos="fade-up"].aos-animate {
+            transform: translateY(0);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Logo" width="50" height="50">
+            <h1>Islamic and Cultural Association of Bedfordview</h1>
+        </header>
+        <nav>
+            <a href="Upcoming_Events&Holidays.html">Upcoming Events & Holidays</a>
+            <a href="address.html">Address</a>
+            <a href="contact.html">Contact & Donations</a>
+            <a href="prayer times.html">Prayer Times</a>
+            <a href="notices.html">Notices</a>
+        </nav>
+        <main>
+            <div class="main-image" data-aos="fade-up">
+                <img src="musallah out.jpg" alt="Main Picture">
+                <img src="musallah in.jpg" alt="Main Picture">
+            </div>
+            <section id="notices" class="section" data-aos="fade-up">
+                <h2>Notices</h2>
+                <div class="event">
+                    <h3>Reminder</h3>
+                    <p>Please refrain from parking on the paving of Arterial Road. This One-Way Road is notably narrow, and parking in such areas obstructs the flow of traffic. Residents frequently enter and exit from their complexes, making it imperative to keep the paving clear at all times to ensure safety and ease of access.</p>
+                    <p>Jazakallah Ughayron</p>
+                </div>
+                <!-- Add more events as needed -->
+            </section>
+            <section id="about-us" class="about-us" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p>At the Islamic and Cultural Association of Bedfordview. We’re dedicated to fostering a vibrant and inclusive Muslim community where cultural understanding and mutual respect flourish. Our mission is to create a welcoming space for people from all walks of life to come together, learn, and grow through a variety of enriching activities and services. We believe in the power of community and the importance of building strong, supportive relationships. We offer educational programs, 5 daily Jamat, Madressah (Islamic schooling), and we have a ladies section for our sisters in Bedfordview, while creating a more inclusive and understanding environment. Let’s work together to foster more devoutness within our Bedfordview Ummah.</p>
+            </section>
+            <section id="services" class="services" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Daily Salah</li>
+                    <li>Educational Programs</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024. Islamic and Cultural Association of Bedfordview. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/hijri-date-picker@latest/dist/js/hijri-date-picker.min.js"></script>
+    <script>
+        new HijriDatePicker('#islamic-calendar');
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
